@@ -1,0 +1,7 @@
+<div class="grid">
+    {% for index in '0123456789' %}
+        {% for item in case.items.all %}
+            {% include 'includes/_item.html' with item=item %}
+        {% endfor %}
+    {% endfor %}
+</div>
