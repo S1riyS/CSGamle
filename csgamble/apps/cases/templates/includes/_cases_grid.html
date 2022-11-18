@@ -1,6 +1,6 @@
 <div class="grid">
-    {% for index in '0123456789' %}
-        {% for item in case.items.all %}
+    {% for index in '01234' %}
+        {% for item in case.caseitem_set.all %}
             {% include 'includes/_item.html' with item=item %}
         {% endfor %}
     {% endfor %}

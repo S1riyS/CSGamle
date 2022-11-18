@@ -81,6 +81,26 @@ a {
 
 
 /* Rarities */
+.common {
+    --rarity-color: #89c0db;
+    --rarity-color-lighten: #9faec5;
+    --rarity-color-0: rgba(137,192,219,0);
+    --rarity-color-10: rgba(137,192,219,0.1);
+    --rarity-color-35: rgba(137,192,219,0.35);
+    --rarity-color-70: rgba(137,192,219,0.7);
+    --rarity-color-90: rgba(137,192,219,0.9);
+}
+
+.uncommon {
+    --rarity-color: #009ae2;
+    --rarity-color-lighten: #9faec5;
+    --rarity-color-0: rgba(0,154,226,0);
+    --rarity-color-10: rgba(0,154,226,0.1);
+    --rarity-color-35: rgba(0,154,226,0.35);
+    --rarity-color-70: rgba(0,154,226,0.7);
+    --rarity-color-90: rgba(0,154,226,0.9);
+}
+
 .milspec {
     --rarity-color: #1e78ff;
     --rarity-color-lighten: #9faec5;
@@ -119,4 +139,14 @@ a {
     --rarity-color-35: rgba(255,18,18,0.35);
     --rarity-color-70: rgba(255,18,18,0.7);
     --rarity-color-90: rgba(255,18,18,0.9);
+}
+
+.rare {
+    --rarity-color: #ffc701;
+    --rarity-color-lighten: #bfb8a0;
+    --rarity-color-0: rgba(255,199,1,0);
+    --rarity-color-10: rgba(255,199,1,0.1);
+    --rarity-color-35: rgba(255,199,1,0.35);
+    --rarity-color-70: rgba(255,199,1,0.7);
+    --rarity-color-90: rgba(255,199,1,0.9);
 }

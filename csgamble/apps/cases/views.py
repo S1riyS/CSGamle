@@ -13,4 +13,9 @@ def case(request, case_name):
     context = {
         'case': case
     }
+
+    print(case.caseitem_set.all())
+    for i in case.caseitem_set.all():
+        print(i.wear_level)
+
     return render(request, 'cases/case.html', context)

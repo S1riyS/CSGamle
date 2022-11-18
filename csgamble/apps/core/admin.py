@@ -12,11 +12,11 @@ class WearLevelAdmin(admin.ModelAdmin):
 
 
 class RarityAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name')
+    list_display = ('id', 'name', 'level')
 
 
 class ItemAdmin(admin.ModelAdmin):
-    list_display = ('id', 'weapon', 'skin_name', 'wear_level', 'rarity')
+    list_display = ('id', 'weapon', 'skin_name', 'rarity')
 
 
 admin.site.register(Weapon, WeaponAdmin)

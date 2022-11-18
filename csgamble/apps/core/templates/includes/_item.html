@@ -9,12 +9,11 @@
 {#        <div class="tooltip tooltip_medium tooltip_right">Provably Fair</div>#}
 {#    </div>#}
 
-    <img src="https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfw-bbeQJD_eOylY2KhPThIISIxlRd4cJ5nqeY84n32ALs_hU4azz0JIHBIwM7MFnUqAO2yem-hJa8uJ2azSRividw-z-DyFPsS8zP/184fx138f/image.png"
-         srcset="https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfw-bbeQJD_eOylY2KhPThIISIxlRd4cJ5nqeY84n32ALs_hU4azz0JIHBIwM7MFnUqAO2yem-hJa8uJ2azSRividw-z-DyFPsS8zP/200fx150f/image.png 2x"
+    <img src="{{ item.image_url }}"
          class="skin__img">
 
     <a class="skin__link skin__link_names"
-       href="https://market.csgo.com/?search=%E2%98%85%20%D0%A2%D1%8B%D1%87%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BD%D0%BE%D0%B6%D0%B8%20%7C%20%D0%94%D0%B0%D0%BC%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D1%82%D0%B0%D0%BB%D1%8C"
+       href="{{ item.market_url }}"
        target="_blank" rel="noreferrer noopener">
         <div class="skin__type">{{ item.weapon.name }}</div>
         <div class="skin__name">{{ item.skin_name }}</div>
